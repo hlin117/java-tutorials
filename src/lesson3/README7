@@ -1,0 +1,15 @@
+basics7 is the first instance where while-loops and flags are used.
+
+Most of the time, while-loops are used to continuously perform an operation
+indefinitely until a certain (boolean) condition is fulfilled. We would check whether
+this condition is satisfied simply by
+
+	while(condition)
+
+while-loops can often be interchanged with "do-while" loops, which we won't cover here.
+
+The next kind of tool we use is a "flag". In simple terms, the flag is the condition
+that needs to be fulfilled in order for the program to exit out of the while-loop.
+
+Together, flags and while-loops are excellent tools to force a user to 
+honor a program's condition. 

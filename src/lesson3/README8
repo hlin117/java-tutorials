@@ -1,0 +1,29 @@
+basics8 introduces the second kind of loop into the mix: the for-loop.
+
+While I would suggest using a while-loop to perform a set of operations
+*indefinitely* until a certain condition is fulfilled, for-loops are
+excellent loops in case someone needs to perform a certain operation for a
+known, *definite* number of times.
+
+For example, to print out (on separate lines) the numbers between 0 through 9 
+(a "definite" number of times), you would only need the lines of code below:
+
+	for(int i = 0; i < 10; i++) {
+		TextIO.putln(i);
+	}
+	
+where
+	"int i = 0" initializes i to zero
+	"i < 10" is the condition/boolean that needs to be fulfilled
+	"i++" indicates by how much we change i (in this case, 1 each time)
+	
+First note the condition is checked every time before the inner loop is executed,
+even for the first time. (So sometimes the code inside might not ever be executed!)
+Second, if someone wanted to print the numbers between 1 through 10, you would need
+to modify the loop to be:
+
+	for(int i = 1; i <= 10; i++) {
+		TextIO.putln(i);
+	}
+	
+(other solutions exist, of course).
