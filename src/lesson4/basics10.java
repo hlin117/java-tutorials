@@ -12,7 +12,12 @@ public class basics10 {
 		int[] array = new int[size];
 		randomArray(array, 0, 20);
 
+		// Shows the output from swapping the first and last values
 		firstLastSwap(array);
+		printArray(array);
+		
+		// Shows the output from doubling the size of the array
+		doubleSize(array);
 		printArray(array);
 	}
 	
@@ -58,4 +63,11 @@ public class basics10 {
 		
 	}
 
+	/**
+	 * TODO: Write a function that doubles the size of the input array.
+	 */
+	public static void doubleSize(int[] array) {
+		
+		
+	}
 }
