@@ -17,11 +17,5 @@ public class functions_example2 {
 		return i % 2 == 0;
 	}
 	
-	// Resizes an array by doubling its size
-	public static int[] doubleSize(int[] array) {
-		
-		
-		
-	}
 
 }
